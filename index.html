@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soumadip Paul — Python &amp; Django Developer</title>
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+  <nav class="navbar" id="navbar">
+    <a href="#home" class="brand">
+      <span class="brand-mark"></span>
+      <span class="brand-name">Soumadip <em>Paul</em></span>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <a href="#contact" class="cta-btn">Let's talk</a>
+
+      <a href="index.html#about" class="nav-avatar" aria-label="About Soumadip Paul">
+        <img src="images/my_img.jpeg" alt="Soumadip Paul" onerror="this.style.display='none'; this.parentElement.classList.add('no-image');">
+        <span class="avatar-fallback">SP</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <aside class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <div class="mobile-menu-head">
+      <span class="mobile-brand">Soumadip <em>Paul</em></span>
+    </div>
+
+    <nav class="mobile-nav">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="index.html#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="mobile-foot">
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Email</a>
+    </div>
+  </aside>
+
+
+<link rel="stylesheet" href="css/home.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="wrap hero-inner">
+      <p class="greet"><span class="wave">👋</span>&nbsp; Hi, I'm Soumadip</p>
+      <h1>Python &amp; Django <em>Developer</em></h1>
+      <p>I build web applications using Python, Django and PostgreSQL, with a focus on clean backend logic and reliable APIs.</p>
+      <p>--Open to Python/Django & Backend Development Internships.</p>
+      <div class="hero-links">
+        <a class="btn btn-outline" href="https://github.com/soumadip420" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5 3.2 9.3 7.8 10.8.6.1.8-.3.8-.6v-2.2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.4 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.5 11.5 0 0 0 23.5 12C23.5 5.7 18.3.5 12 .5Z"/></svg>
+          GitHub
+        </a>
+        <a class="btn btn-outline" href="https://www.linkedin.com/in/soumadip-paul-7067582b4" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.4 20.4h-3.5v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.6H9.5V9h3.4v1.6h.1c.5-.9 1.6-1.8 3.3-1.8 3.6 0 4.1 2.4 4.1 5.4v6.2ZM5.3 7.4a2 2 0 1 1 0-4 2 2 0 0 1 0 4ZM7 20.4H3.6V9H7v11.4Z"/></svg>
+          LinkedIn
+        </a>
+        <a class="btn btn-primary" href="#projects">
+          View Projects
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="section-num">01</span>
+        <h2 class="section-title">Skills</h2>
+        <div class="section-rule"></div>
+      </div>
+
+      <div class="skill-groups reveal">
+        <div class="skill-row">
+          <span class="label">Backend</span>
+          <div class="chip-set">
+            <span class="chip">Python</span>
+            <span class="chip">Django</span>
+            <span class="chip">PostgreSQL</span>
+          </div>
+        </div>
+        <div class="skill-row">
+          <span class="label">Tools &amp; APIs</span>
+          <div class="chip-set">
+            <span class="chip">REST APIs</span>
+            <span class="chip">Git</span>
+            <span class="chip">GitHub</span>
+          </div>
+        </div>
+        <div class="skill-row">
+          <span class="label">Frontend basics</span>
+          <div class="chip-set">
+            <span class="chip">HTML</span>
+            <span class="chip">CSS</span>
+            <span class="chip">JavaScript</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="section-num">02</span>
+        <h2 class="section-title">About me</h2>
+        <div class="section-rule"></div>
+      </div>
+
+      <div class="about-grid reveal">
+        <div class="about-text">
+          <p>I'm a <strong>BCA Honours</strong> student with a growing interest in <strong>backend and web application development</strong>. Most of my time goes into building things with Python and Django — figuring out how data should be modelled, how an API should behave, and how to keep a codebase easy to come back to.</p>
+          <p>I'm currently looking for a <strong>Python/Django or Backend Development internship</strong>, where I can work on real problems, learn from experienced engineers, and keep sharpening the backend fundamentals I've been building on my own.</p>
+        </div>
+
+        <div class="status-card">
+          <div class="status-row">
+            <span class="k">Education</span>
+            <span class="v">BCA Honours</span>
+          </div>
+          <div class="status-row">
+            <span class="k">Focus</span>
+            <span class="v">Backend Development</span>
+          </div>
+          <div class="status-row">
+            <span class="k">Looking for</span>
+            <span class="v">Django Internship</span>
+          </div>
+          <div class="status-row">
+            <span class="k">Availability</span>
+            <span class="v"><span class="status-dot"></span>Open to work</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects" id="projects">
+        <span class="featured-tag reveal">Featured projects</span>
+        <div class="section-head reveal">
+          <span class="section-num">03</span>
+          <h2 class="section-title">Projects</h2>
+          <div class="section-rule"></div>
+        </div>
+
+        <div class="project-grid reveal">
+          <div class="project-card">
+            <div class="project-top">
+              <div class="project-icon">01</div>
+              <div class="project-links">
+                <a href="https://github.com/soumadip420/mini_media.git" aria-label="View code" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 5 2 12l6 7M16 5l6 7-6 7"/></svg>
+                </a>
+                <a href="#" aria-label="View live" target="_blank" rel="noopener">
+                  <!-- <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14 21 3"/></svg> -->
+                </a>
+              </div>
+            </div>
+            <h3>PIXI(Social Media Web Application)</h3>
+            <p>A Django-based social media web application with user authentication, profiles, posts, likes, comments, saved posts and trending content.</p>
+            <div class="project-stack">
+              <span class="stack-tag">python</span>
+              <span class="stack-tag">Django</span>
+              <span class="stack-tag">PostgreSQL</span>
+              <span class="stack-tag">HTML/CSS/JavaScript</span>
+              <span class="stack-tag">Cloudinary</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-top">
+              <div class="project-icon">02</div>
+              <div class="project-links">
+                <a href="https://github.com/soumadip420/Joke_generator.git" aria-label="View code" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 5 2 12l6 7M16 5l6 7-6 7"/></svg>
+                </a>
+                <a href="#" aria-label="View live" target="_blank" rel="noopener">
+                  <!-- <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14 21 3"/></svg> -->
+                </a>
+              </div>
+            </div>
+            <h3>Joke Generator(Python API CLI Application)</h3>
+            <p>A command-line application that fetches jokes from a public REST API and displays them directly in the terminal.</p>
+            <div class="project-stack">
+              <span class="stack-tag">Python</span>
+              <span class="stack-tag">REST API</span>
+              <span class="stack-tag">JSON,CLI</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-top">
+              <div class="project-icon">03</div>
+              <div class="project-links">
+                <a href="https://github.com/soumadip420/Password-Manager.git" aria-label="View code" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 5 2 12l6 7M16 5l6 7-6 7"/></svg>
+                </a>
+                <a href="#" aria-label="View live" target="_blank" rel="noopener">
+                  <!-- <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14 21 3"/></svg> -->
+                </a>
+              </div>
+            </div>
+            <h3>Password-Manager</h3>
+            <p>AA modular command-line password manager built with Python and SQLite, featuring account management, password generation, strength checking, and CRUD operations.</p>
+            <div class="project-stack">
+              <span class="stack-tag">Python</span>
+              <span class="stack-tag">SQLite</span>
+              <span class="stack-tag">CRUD</span>
+              <span class="stack-tag">CLI</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="more-wrap reveal">
+          <a class="btn btn-outline" href="projects.html" target="_blank" rel="noopener">
+            More Projects
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<script>
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.classList.add('in');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  revealEls.forEach(el => io.observe(el));
+</script>
+<hr>
+
+<link rel="stylesheet" href="css/footer.css">
+<footer class="site-footer" id="contact">
+  <div class="footer-glow" aria-hidden="true"></div>
+
+  <div class="footer-top reveal">
+
+    <div class="footer-brand">
+      <a href="#home" class="brand">
+        <span class="brand-mark"></span>
+        <span class="brand-name">Soumadip <em>Paul</em></span>
+      </a>
+      <p class="footer-tagline">Python &amp; Django developer building clean, reliable backends — currently open to internship opportunities.</p>
+
+      <div class="footer-social">
+        <a href="https://github.com/soumadip420" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5 3.2 9.3 7.8 10.8.6.1.8-.3.8-.6v-2.2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.4 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.5 11.5 0 0 0 23.5 12C23.5 5.7 18.3.5 12 .5Z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/soumadip-paul-7067582b4" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.4 20.4h-3.5v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.6H9.5V9h3.4v1.6h.1c.5-.9 1.6-1.8 3.3-1.8 3.6 0 4.1 2.4 4.1 5.4v6.2ZM5.3 7.4a2 2 0 1 1 0-4 2 2 0 0 1 0 4ZM7 20.4H3.6V9H7v11.4Z"/></svg>
+        </a>
+        <a href="mailto:paulsoumadip012@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18v12H3V6Zm0 0 9 7 9-7"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Navigate</h4>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li>
+          <a href="mailto:paulsoumadip012@gmail.com">paulsoumadip012@gmail.com</a>
+        </li>
+        <!-- <li>
+          <a href="tel:+910000000000">+91 00000 00000</a>
+        </li> -->
+        <li>
+          <span class="footer-location">Kolkata, West Bengal, India</span>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p class="footer-copy">&copy; <span id="footerYear">2026</span> Soumadip Paul. All rights reserved.</p>
+    <p class="footer-credit">Designed &amp; built by Soumadip Paul</p>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </button>
+  </div>
+</footer>
+<script src="js/navbar.js"></script>
+<script src="js/footer.js"></script>
+</body>
+</html>
